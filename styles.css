@@ -16,6 +16,16 @@ body {
   margin: auto;
 
 }
+#start-btn {
+  font-family: 'Press Start 2P', cursive;
+  margin: 25px;
+  height: 100px;
+  width: 200px;
+  border: 10px solid green;
+  border-radius: 20%;
+  font-size: 2rem;
+  background-color: blue
+}
 
 .btn {
   margin: 25px;
@@ -50,4 +60,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+footer{
+  font-size: 3rem;
+  color: white;
+  font-family: sans-serif;
 }
