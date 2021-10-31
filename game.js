@@ -94,7 +94,17 @@ function checkAnswer(currentLevel){
     setTimeout(function(){
        $("body").removeClass("game-over");
    },200); //delay is in milliseconds
-   $("#level-title").text("Game-Over Click Start Button for New Game");
+   if(level>14)
+   {
+      $("#level-title").text("GAME OVER - You have a genius brain - Click Start Button for New Game");
+   }
+   else if(level>9)
+   {
+     $("#level-title").text("GAME OVER- Healthy Brain Try to achieve level 15 - Click Start Button for New Game");
+   }
+   else{
+     $("#level-title").text("GAME OVER - Need more brain workout Try to achieve level 10 - Click Start Button for New Game");
+   }
    started=false;
    userClickedPattern=[];
    gamePattern=[];

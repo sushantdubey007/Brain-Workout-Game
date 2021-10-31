@@ -10,6 +10,13 @@ body {
   color: #FEF2BF;
 }
 
+#level-subtitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  5%;
+  color: #BFF2FE;
+}
+
 .container {
   display: block;
   width: 50%;
